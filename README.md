@@ -1,6 +1,14 @@
 # MLOps Agentic AI System
 
+## 🚀 Overview
+
 **Problem Statement:** Autonomous MLOps system that detects, investigates, and responds to data drift without human intervention, reducing response time from hours to minutes while maintaining safety and compliance standards.
+
+Details
+This project presents an advanced MLOps system designed to autonomously detect and respond to data and model drift in a customer churn prediction pipeline. Leveraging a multi-agent AI architecture built with the Google Agent Development Kit (ADK), the system intelligently analyzes drift events, formulates strategic responses, and orchestrates automated actions, minimizing manual intervention.
+
+It showcases a robust, event-driven design, emphasizing observability, traceability, and intelligent decision-making in a real-world machine learning context.
+
 
 ## 🗺️ High-Level Architecture
 
@@ -30,40 +38,6 @@ graph TD
     style K fill:#e6f2ff,stroke:#0066cc
 ```
 
-## 🧰 Tech Stack
-
-**🤖 AI & ML Framework:**
-- Google Agent Development Kit (ADK) for multi-agent orchestration
-- Ollama/Gemini for large language models
-- ChromaDB for RAG-based knowledge retrieval
-
-
-**Data Pipeline & Orchestration:**
-- Kedro for ML pipeline management
-- Redis Streams for event-driven architecture
-- MLflow for model registry and versioning
-
-**Backend & Infrastructure:**
-- Python with Pydantic for type safety
-- YAML configuration management
-- JSON Lines for audit logging
-
-**Observability & Monitoring:**
-- Langfuse for LLM tracing and debugging
-- Structured logging with correlation ID tracking
-- End-to-end workflow monitoring
-
-## AI Agents Decision based on data drift detection
-
-<img width="666" height="800" alt="image" src="https://github.com/user-attachments/assets/944b6bc8-3706-4489-a0a4-8f92da3be0c8" />
-
-
-
-### 🚫 Why No/Partial Code?
-
-To protect intellectual property and maintain project integrity, the full source code is not publicly available. However, the documentation provides deep insight into the system’s design, philosophy, and capabilities.
-
-
 ## ✨ Key Features
 
 ### Intelligent Drift Response
@@ -86,6 +60,34 @@ To protect intellectual property and maintain project integrity, the full source
 - **Correlation ID Tracing:** Track individual events through the entire distributed system
 - **LLM Interaction Monitoring:** Deep visibility into agent reasoning and tool usage
 - **Performance Analytics:** Monitor response times and success rates across workflows
+
+
+## 🧰 Tech Stack
+
+**🤖 AI & ML Framework:**
+- Google Agent Development Kit (ADK) for multi-agent orchestration
+- Ollama/Gemini for large language models
+- ChromaDB for RAG-based knowledge retrieval
+
+**Data Pipeline & Orchestration:**
+- Kedro for ML pipeline management
+- Redis Streams for event-driven architecture
+- MLflow for model registry and versioning
+
+**Backend & Infrastructure:**
+- Python with Pydantic for type safety
+- YAML configuration management
+- JSON Lines for audit logging
+
+**Observability & Monitoring:**
+- Langfuse for LLM tracing and debugging
+- Structured logging with correlation ID tracking
+- End-to-end workflow monitoring
+
+## AI Agents Decision based on data drift detection
+
+<img width="666" height="800" alt="image" src="https://github.com/user-attachments/assets/944b6bc8-3706-4489-a0a4-8f92da3be0c8" />
+
 
 ## 🧬 Design Highlights
 
@@ -124,3 +126,9 @@ This design demonstrates several key architectural patterns:
 - **Event Sourcing:** Immutable audit trail for compliance and debugging
 
 The system showcases how modern AI agents can be integrated into production MLOps workflows while maintaining the safety, reliability, and observability standards required for business-critical applications.
+
+### 🚫 Why No/Partial Code?
+
+To protect intellectual property and maintain project integrity, the full source code is not publicly available. However, the documentation provides deep insight into the system’s design, philosophy, and capabilities.
+
+
