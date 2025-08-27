@@ -4,7 +4,8 @@
 
 **Problem Statement:** Autonomous MLOps system that detects, investigates, and responds to data drift without human intervention, reducing response time from hours to minutes while maintaining safety and compliance standards.
 
-Details
+### Details
+
 This project presents an advanced MLOps system designed to autonomously detect and respond to data and model drift in a customer churn prediction pipeline. Leveraging a multi-agent AI architecture built with the Google Agent Development Kit (ADK), the system intelligently analyzes drift events, formulates strategic responses, and orchestrates automated actions, minimizing manual intervention.
 
 It showcases a robust, event-driven design, emphasizing observability, traceability, and intelligent decision-making in a real-world machine learning context.
