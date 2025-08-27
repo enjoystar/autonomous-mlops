@@ -1,4 +1,4 @@
-# MLOps Agentic AI System
+# ⚙️ MLOps Agentic AI System
 
 [![Google ADK](https://img.shields.io/badge/Google-ADK-green?logo=google)](https://github.com/google-gemini/google-adk)
 [![MLflow](https://img.shields.io/badge/MLflow-Tracking-blue?logo=mlflow)](https://mlflow.org)
@@ -70,7 +70,7 @@ graph TD
 - **Performance Analytics:** Monitor response times and success rates across workflows
 
 
-## 🧰 Tech Stack
+## 🧰 Technical Stack
 
 **🤖 AI & ML Framework:**
 - Google Agent Development Kit (ADK) for multi-agent orchestration
