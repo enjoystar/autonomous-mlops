@@ -38,6 +38,9 @@ graph TD
 - **Infrastructure:** Message queuing, distributed tracing
 - **Monitoring:** Comprehensive logging and observability
 
+##  🚫 Why No/Partial Code?
+To protect intellectual property and maintain project integrity, the full source code is not publicly available. However, the documentation provides deep insight into the system’s design, philosophy, and capabilities.
+
 ## Key Capabilities
 
 - **Multi-Agent Coordination:** Designed agent hierarchy with specialized roles for investigation, strategic planning, and execution
