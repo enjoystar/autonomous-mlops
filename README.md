@@ -53,6 +53,12 @@ graph TD
 - Structured logging with correlation ID tracking
 - End-to-end workflow monitoring
 
+## AI Agents Decision based on data drift detection
+
+<img width="666" height="800" alt="image" src="https://github.com/user-attachments/assets/944b6bc8-3706-4489-a0a4-8f92da3be0c8" />
+
+
+
 ### 🚫 Why No/Partial Code?
 
 To protect intellectual property and maintain project integrity, the full source code is not publicly available. However, the documentation provides deep insight into the system’s design, philosophy, and capabilities.
