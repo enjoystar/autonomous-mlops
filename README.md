@@ -1,8 +1,8 @@
-# Autonomous MLOps with Agentic AI
+# MLOps Agentic AI System
 
-**Problem Statement:** Designed and implemented a multi-agent AI system that autonomously manages ML model lifecycle issues, demonstrating advanced agentic AI capabilities within MLOps workflows. The system reduces manual intervention by 70% through intelligent agent coordination and decision-making.
+**Problem Statement:** Built an autonomous MLOps system that detects, investigates, and responds to data drift without human intervention, reducing response time from hours to minutes while maintaining safety and compliance standards.
 
-## Architecture Overview
+## High-Level Architecture
 
 ```mermaid
 graph TD
@@ -32,40 +32,89 @@ graph TD
 
 ## Tech Stack
 
-- **AI/ML:** Advanced agentic AI framework, multi-agent orchestration, knowledge retrieval systems
-- **Backend:** Python, event-driven architecture
-- **Data:** ML pipeline orchestration, model registry
-- **Infrastructure:** Message queuing, distributed tracing
-- **Monitoring:** Comprehensive logging and observability
+**AI & ML Framework:**
+- Google Agent Development Kit (ADK) for multi-agent orchestration
+- Ollama/Gemini for large language models
+- ChromaDB for RAG-based knowledge retrieval
 
-##  🚫 Why No/Partial Code?
+
+**Data Pipeline & Orchestration:**
+- Kedro for ML pipeline management
+- Redis Streams for event-driven architecture
+- MLflow for model registry and versioning
+
+**Backend & Infrastructure:**
+- Python with Pydantic for type safety
+- YAML configuration management
+- JSON Lines for audit logging
+
+**Observability & Monitoring:**
+- Langfuse for LLM tracing and debugging
+- Structured logging with correlation ID tracking
+- End-to-end workflow monitoring
+
+### 🚫 Why No/Partial Code?
+
 To protect intellectual property and maintain project integrity, the full source code is not publicly available. However, the documentation provides deep insight into the system’s design, philosophy, and capabilities.
 
-## Key Capabilities
 
-- **Multi-Agent Coordination:** Designed agent hierarchy with specialized roles for investigation, strategic planning, and execution
-- **Intelligent Decision Routing:** Confidence-based agent orchestration with automated escalation pathways  
-- **Autonomous MLOps Actions:** Agents autonomously trigger pipeline retraining, model deployment, and stakeholder notifications
-- **Safety Framework:** Multi-layer validation ensures only safe actions are executed by autonomous agents
-- **Agent Observability:** Complete visibility into agent reasoning, tool usage, and decision-making processes
+## Key Features
 
-## Design Philosophy
+### Intelligent Drift Response
+- **Automated Investigation:** AI agents analyze drift patterns using historical knowledge base
+- **Strategic Planning:** Context-aware remediation strategies with confidence scoring
+- **Autonomous Execution:** High-confidence actions executed automatically within safety constraints
 
-**Agent-Centric Architecture:** Built using modern agentic AI patterns with specialized agents handling distinct MLOps functions - investigation, strategy formulation, and execution coordination.
+### Multi-Agent Architecture
+- **Coordinator Agent:** Orchestrates the entire response workflow
+- **Investigator Agent:** Performs root cause analysis of drift events
+- **Strategy Agent:** Formulates actionable remediation plans with cost-benefit analysis
 
-**Multi-Agent Orchestration:** Implemented coordinator-worker agent hierarchy where a central orchestrator manages specialized sub-agents, demonstrating advanced agent communication and task delegation patterns.
+### Safety & Compliance Framework
+- **Confidence-Based Autonomy:** Actions only executed when confidence exceeds 80% threshold
+- **Risk Validation:** Pre-flight checks for cost limits, blackout periods, and business rules
+- **Smart Escalation:** Uncertain scenarios automatically escalated to human operators
+- **Comprehensive Audit Trail:** Every decision tracked with full context and reasoning
 
-**Intelligent Autonomy:** Agents make context-aware decisions using retrieval-augmented generation (RAG) and confidence-based routing, showcasing practical applications of agentic AI in production environments.
+### End-to-End Observability
+- **Correlation ID Tracing:** Track individual events through the entire distributed system
+- **LLM Interaction Monitoring:** Deep visibility into agent reasoning and tool usage
+- **Performance Analytics:** Monitor response times and success rates across workflows
 
-**Safety-First Agentic Design:** Combines LLM-powered agent reasoning with deterministic validation layers, showing how to build trustworthy autonomous agent systems for business-critical applications.
+## Design Highlights
 
-## Outcomes
+### Event-Driven Architecture
+Implemented Redis Streams as the communication backbone, enabling loose coupling between drift detection, agent processing, and action execution. This design ensures system resilience and allows for independent scaling of components.
 
-- 70% reduction in manual incident response
-- 3-5 minute automated response time vs. hours previously
-- Zero safety incidents through validation framework
-- Complete audit compliance for regulated environments
+### Deterministic Safety Layer
+Created a hybrid approach where LLM agents handle complex reasoning and strategy formulation, while a deterministic Python function enforces business rules and safety constraints. This prevents non-deterministic AI from making critical safety decisions.
 
-## Architecture Highlights
+### RAG-Enhanced Decision Making
+Integrated retrieval-augmented generation with specialized knowledge bases:Historical patterns, troubleshooting guidance etc
 
-This system demonstrates practical application of modern AI in production environments, focusing on reliability, safety, and observability rather than just technical novelty. The architecture balances automation with human oversight, showing how to build trustworthy autonomous systems for business-critical applications.
+
+### Autonomous Action Framework
+Implemented three-tier decision making:
+1. **Execute** 
+2. **Escalate** Human in the loop
+3. **Monitor:** Low-impact issues logged for pattern analysis
+
+
+## System Capabilities
+
+- **Response Time:** Reduced drift response from hours to 3-5 minutes
+- **Autonomy Rate:** 70%+ of drift events handled without human intervention
+- **Safety Record:** Zero unauthorized actions through multi-layer validation
+- **Observability:** Complete audit trail with LLM reasoning transparency
+- **Scalability:** Event-driven architecture supports concurrent drift handling
+
+## Architecture Benefits
+
+This design demonstrates several key architectural patterns:
+- **Microservices:** Decoupled components communicating via events
+- **AI/ML Integration:** Practical application of LLMs in production systems  
+- **Observability:** Production-ready monitoring and debugging capabilities
+- **Safety Engineering:** Multi-layer validation for autonomous systems
+- **Event Sourcing:** Immutable audit trail for compliance and debugging
+
+The system showcases how modern AI agents can be integrated into production MLOps workflows while maintaining the safety, reliability, and observability standards required for business-critical applications.
