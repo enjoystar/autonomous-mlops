@@ -2,7 +2,7 @@
 
 **Problem Statement:** Built an autonomous MLOps system that detects, investigates, and responds to data drift without human intervention, reducing response time from hours to minutes while maintaining safety and compliance standards.
 
-## High-Level Architecture
+## 🗺️ High-Level Architecture
 
 ```mermaid
 graph TD
@@ -30,9 +30,9 @@ graph TD
     style K fill:#e6f2ff,stroke:#0066cc
 ```
 
-## Tech Stack
+## 🧰 Tech Stack
 
-**AI & ML Framework:**
+**🤖 AI & ML Framework:**
 - Google Agent Development Kit (ADK) for multi-agent orchestration
 - Ollama/Gemini for large language models
 - ChromaDB for RAG-based knowledge retrieval
@@ -58,7 +58,7 @@ graph TD
 To protect intellectual property and maintain project integrity, the full source code is not publicly available. However, the documentation provides deep insight into the system’s design, philosophy, and capabilities.
 
 
-## Key Features
+## ✨ Key Features
 
 ### Intelligent Drift Response
 - **Automated Investigation:** AI agents analyze drift patterns using historical knowledge base
@@ -81,7 +81,7 @@ To protect intellectual property and maintain project integrity, the full source
 - **LLM Interaction Monitoring:** Deep visibility into agent reasoning and tool usage
 - **Performance Analytics:** Monitor response times and success rates across workflows
 
-## Design Highlights
+## 🧬 Design Highlights
 
 ### Event-Driven Architecture
 Implemented Redis Streams as the communication backbone, enabling loose coupling between drift detection, agent processing, and action execution. This design ensures system resilience and allows for independent scaling of components.
@@ -100,7 +100,7 @@ Implemented three-tier decision making:
 3. **Monitor:** Low-impact issues logged for pattern analysis
 
 
-## System Capabilities
+## 📈 System Capabilities
 
 - **Response Time:** Reduced drift response from hours to 3-5 minutes
 - **Autonomy Rate:** 70%+ of drift events handled without human intervention
@@ -108,7 +108,7 @@ Implemented three-tier decision making:
 - **Observability:** Complete audit trail with LLM reasoning transparency
 - **Scalability:** Event-driven architecture supports concurrent drift handling
 
-## Architecture Benefits
+## 🏗️ Architecture Benefits
 
 This design demonstrates several key architectural patterns:
 - **Microservices:** Decoupled components communicating via events
