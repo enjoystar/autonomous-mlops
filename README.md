@@ -1,3 +1,13 @@
+# Autonomous MLOps System for Customer Churn Prediction
+
+[![Google ADK](https://img.shields.io/badge/Google-ADK-green?logo=google)](https://github.com/google-gemini/google-adk)
+[![MLflow](https://img.shields.io/badge/MLflow-Tracking-blue?logo=mlflow)](https://mlflow.org)
+[![Powered by Kedro](https://img.shields.io/badge/powered_by-kedro-ffc900?logo=kedro)](https://kedro.org)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://www.python.org/)
+[![Redis](https://img.shields.io/badge/Redis-Stream-red?logo=redis)](https://redis.io/docs/data-types/streams/)
+
+
+
 # MLOps Agentic AI System
 
 ## 🚀 Overview
