@@ -1,6 +1,6 @@
 # MLOps Agentic AI System
 
-**Problem Statement:** Built an autonomous MLOps system that detects, investigates, and responds to data drift without human intervention, reducing response time from hours to minutes while maintaining safety and compliance standards.
+**Problem Statement:** Autonomous MLOps system that detects, investigates, and responds to data drift without human intervention, reducing response time from hours to minutes while maintaining safety and compliance standards.
 
 ## 🗺️ High-Level Architecture
 
