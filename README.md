@@ -1,4 +1,4 @@
-# Autonomous MLOps System for Customer Churn Prediction
+# Autonomous MLOps System
 
 [![Google ADK](https://img.shields.io/badge/Google-ADK-green?logo=google)](https://github.com/google-gemini/google-adk)
 [![MLflow](https://img.shields.io/badge/MLflow-Tracking-blue?logo=mlflow)](https://mlflow.org)
